@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -18,27 +18,45 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Research fellow"
+  company = "National University of Singapore"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Singapore"
+  date_start = "2017-02-28"
   date_end = ""
   description = """
-  Responsibilities include:
+  Research topics:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Autonomous driving in crowded environments
+  * Integrating planning and learning for large-scale decision making under
+    uncertainty.
+  * Massive parallelization for real-time planning under uncertainty
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "PhD"
+  company = "Nanyang Technological University"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
+  location = "Singapore"
+  date_start = "2011-08-08"
   date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """
+  Research topics:
+  
+  * GPU-based collision detection in complex environments
+  * Massively parallel path planning in complex industrial environments
+  """
 
+[[experience]]
+  title = "Undergraduate student"
+  company = "Zhejiang University"
+  company_url = ""
+  location = "China"
+  date_start = "2007-08-01"
+  date_end = "2011-06-30"
+  description = """ Specifications:
+
+  * Top students selected to the ChuKoChen Honors College.
+  * Trained on Mathematics and Scientific Computing.
+  """
 +++

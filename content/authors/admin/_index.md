@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Posdoctoral Research Fellow of Artificial Intelligence and Robotics
+role: Postdoctoral Research Fellow of Artificial Intelligence and Robotics
 
 # Organizations/Affiliations
 organizations:
@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-Dr. Cai Panpan is posdoctoral research fellow working with Prof. David Hsu at the Department of Computer Science, National University of Singapore. Her research interests include robot motion planning, decision making, robot learning, parallel computing, and their applications to autonomous driving in crowded environments. She has been focusing on tackling large-scale decision making problems in robotics that involve uncertainties and long-term planning.
+Dr. Cai Panpan is postdoctoral research fellow working with Prof. David Hsu at the Department of Computer Science, National University of Singapore. Her research interests include robot motion planning, decision making, robot learning, parallel computing, and their applications to autonomous driving in crowded environments. She has been focusing on tackling large-scale decision making problems in robotics that involve complex environments, uncertainties and long-term planning.

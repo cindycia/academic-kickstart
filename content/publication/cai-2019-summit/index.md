@@ -22,8 +22,8 @@ a context-aware planner together with benchmark scenarios
 and show that SUMMIT generates complex, realistic traffic
 behaviors in challenging crowd-driving settings."
 featured: true 
-publication: "*arXiv preprint arXiv:1906.01567*"
-url_pdf: https://www.dropbox.com/h?preview=SUMMIT.pdf
+publication: "Submitted to ICRA 2020"
+url_pdf: https://www.dropbox.com/s/fs0e9j4o0r80e82/SUMMIT.pdf?dl=0 
 
 image:                                                                           
   caption: ""                                                  

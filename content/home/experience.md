@@ -28,9 +28,10 @@ date_format = "Jan 2006"
   Research topics:
   
   * Autonomous driving in crowded environments
+  * Behaviour modeling of traffic agents
+  * Massive parallelization for real-time planning under uncertainty
   * Integrating planning and learning for large-scale decision making under
     uncertainty.
-  * Massive parallelization for real-time planning under uncertainty
   """
 
 [[experience]]

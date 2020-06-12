@@ -12,7 +12,7 @@ address:
   postcode:
   country:
 summary: 
-abstract: A spotlight talk given at ICRA 2020 for the paper "SUMMIT: A Simulator for Urban Driving in Massive Mixed Traffic" 
+abstract: A spotlight talk given at ICRA 2020 for the paper "SUMMIT. A Simulator for Urban Driving in Massive Mixed Traffic" 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

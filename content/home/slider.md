@@ -15,9 +15,25 @@ height = "350px"
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
+
+[[item]]
+  title = "Presented at ICRA 2022"
+  content = "GAMMA: A General Agent Motion Model for Autonomous Driving."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#656"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Paper"
+  cta_url = "https://arxiv.org/abs/1906.01566"
+  cta_icon_pack = "fas"
+
 [[item]]
   title = "WIPL 2021"
-  content = "I am co-organizing the RSS 2021 Workshop on Integrating Planning and Learning (WIPL)."
+  content = "I co-organized the RSS 2021 Workshop on Integrating Planning and Learning (WIPL)."
   align = "left"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -35,18 +51,7 @@ height = "350px"
   # cta_icon = "graduation-cap"
 
 [[item]]
-  title = "Recent lecturing"
-  content = "I have co-lectured graduate-level robotics courses at NUS on sampling-based motion planning, POMDP plannig, and robot system architectures."
-  align = "left"  # Choose `center`, `left`, or `right`.
-
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#575"  # An HTML color value.
-  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
-[[item]]
-  title = "To be presented at RSS 2021"
+  title = "Presented at RSS 2021"
   content = "MAGIC: Learning Macro-Actions for Online POMDP Planning using Generator-Critic."
   align = "left"  # Choose `center`, `left`, or `right`.
 
@@ -59,7 +64,17 @@ height = "350px"
   cta_label = "Paper"
   cta_url = "https://arxiv.org/abs/2011.03813"
   cta_icon_pack = "fas"
- 
+
+[[item]]
+  title = "Recent lecturing"
+  content = "I have co-lectured graduate-level robotics courses at NUS on sampling-based motion planning, POMDP plannig, and robot system architectures."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#575"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 
 # [[item]]

@@ -1,7 +1,7 @@
 ---
 title: "SUMMIT: A Simulator for Urban Driving in Massive Mixed Traffic"
-date: 2019-09-01
-publishDate: 2019-11-07T11:46:20.943118Z
+date: 2020-09-01
+publishDate: 2020-11-07T11:46:20.943118Z
 authors: ["Panpan Cai", "Yiyuan Lee", "Yuanfu Luo", "David Hsu"]
 publication_types: ["1"]
 abstract: "Autonomous driving in an unregulated urban
@@ -24,6 +24,7 @@ behaviors in challenging crowd-driving settings."
 featured: true 
 publication: "Presented at ICRA 2020"
 url_pdf: https://www.dropbox.com/s/fs0e9j4o0r80e82/SUMMIT.pdf?dl=0 
+url_code: https://github.com/AdaCompNUS/summit
 
 image:                                                                           
   caption: ""                                                  

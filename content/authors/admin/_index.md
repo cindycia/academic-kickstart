@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Cai Panpan
+name: Panpan Cai
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Research Fellow of Artificial Intelligence and Robotics
+role: Postdoctoral Research Fellow
 
 # Organizations/Affiliations
 organizations:
@@ -21,16 +21,16 @@ organizations:
 bio: My research interests include Robot motion planning, planning under uncertainty, robot learning and their application to autonomous driving.
 
 interests:
-- Robotics
-- Autonomous Driving 
-- Artificial Intelligence
-- Robot Learning
-- Parallel Computing
+- Robot planning and decision making 
+- Robot learning
+- Integrate planning and learning
+- Autonomous driving in crowed traffic
+- Parallel computing
 
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
+  - course: PhD in Robotics
     institution: Nanyang Technological University, Singapore
     year: 2016
   - course: Bsc in Computational Mathematics
@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-I am a roboticist. I am currently a postdoctoral research fellow working with [Prof. David Hsu](https://www.comp.nus.edu.sg/~dyhsu/) at the Department of Computer Science, [National University of Singapore](https://www.comp.nus.edu.sg/) after receiving my PhD degree from the Nanyang Technological University. I have been focusing on tackling large-scale decision making problems in robotics that involve complex environments, uncertainties and long-term planning. My research interests include robot motion planning, decision making, robot learning, parallel computing, and their applications to autonomous driving in crowded environments. My goal is to enable robots to seamlessly interact with humans in crowded, chaotic environments and accomplish complex tasks. Check out my [research statement](files/research.pdf) and [CV](files/cv.pdf) for details.
+I am a roboticist. I am currently a postdoctoral research fellow working with [Prof. David Hsu](https://www.comp.nus.edu.sg/~dyhsu/) at the Department of Computer Science, [National University of Singapore](https://www.comp.nus.edu.sg/) after receiving my PhD degree from the Nanyang Technological University. I have been focusing on tackling large-scale decision making problems in robotics that involve complex environments, uncertainties and long-term planning. My research interests include robot motion planning, decision making, robot learning, parallel computing, and their applications to autonomous driving in crowded environments. My goal is to enable robots to seamlessly interact with humans in crowded, chaotic environments and accomplish complex tasks. Please see this [video](https://youtu.be/S1W8mXMQFAA) for a 3-min introduction of my recent research, or see my [research statement](files/research.pdf) and [CV](files/cv.pdf) for details.

@@ -19,11 +19,25 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Associate Professor"
-  company = "Shanghai Jiao Tong University"
+  title = "Joint Full-time Faculty"
+  company = "Shanghai Innovation Institute"
   company_url = ""
   location = "Shanghai, China"
-  date_start = "2022-08-15"
+  date_start = "2025-09-01"
+  date_end = ""
+  description = """
+  Research topics:
+  * Integrating planning and learning
+  * Embodied AI and robot foundation models
+  * Robot manipulation
+  """
+
+[[experience]]
+  title = "Associate Professor"
+  company = "School of Artificial Intelligence, Shanghai Jiao Tong University"
+  company_url = ""
+  location = "Shanghai, China"
+  date_start = "2024-01-01"
   date_end = ""
   description = """
   Research topics:
@@ -32,7 +46,21 @@ date_format = "Jan 2006"
   * Autonomous driving
   * Robot manipulation
   """
-  
+
+[[experience]]
+  title = "Associate Professor"
+  company = "Qing Yuan Research Institute, Shanghai Jiao Tong University"
+  company_url = ""
+  location = "Shanghai, China"
+  date_start = "2022-08-15"
+  date_end = "2023-12-31"
+  description = """
+  Research topics:
+  * Integrating planning and learning
+  * Planning under uncertainty
+  * Autonomous driving
+  """
+
 [[experience]]
   title = "Senior Research fellow"
   company = "National University of Singapore"

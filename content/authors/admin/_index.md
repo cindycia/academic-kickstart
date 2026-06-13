@@ -14,7 +14,9 @@ role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Shanghai Jiao Tong University (SJTU)
+- name: School of Artificial Intelligence, SJTU
+  url: ""
+- name: Shanghai Innovation Institute
   url: ""
 
 # Short bio (displayed in user profile at end of posts)

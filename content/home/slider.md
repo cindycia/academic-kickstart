@@ -16,10 +16,39 @@ height = "330px"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 
+[[item]]
+  title = "Editor for T-RO"
+  content = "I am serving as an Associate Editor for the IEEE Transactions on Robotics (T-RO)."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#557"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+  cta_label = "Journal"
+  cta_url = "https://www.ieee-ras.org/publications/t-ro"
+  cta_icon_pack = "fas"
 
 [[item]]
-  title = "Recent service"
-  content = "I am serving as an associate editor (AE) for ICRA 2023."
+  title = "Area Chair for RSS 2026"
+  content = "I am serving as an Area Chair for Robotics: Science and Systems (RSS) 2026."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#575"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+  cta_label = "Homepage"
+  cta_url = "https://roboticsconference.org/"
+  cta_icon_pack = "fas"
+
+[[item]]
+  title = "Past service"
+  content = "I served as an Associate Editor (AE) for ICRA 2023."
   align = "left"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).

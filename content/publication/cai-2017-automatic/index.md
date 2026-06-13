@@ -14,7 +14,7 @@ Our results show that the planner generate lifting paths that are safe, efficien
 easy for conduction for any complex
 environments."
 featured: true 
-publication: "*IEEE Transactions on Industrial Informatics*"
+publication: "*IEEE Transactions on Industrial Informatics (TII)*"
 url_pdf: https://www.dropbox.com/search/personal?path=%2F&preview=id%3AJfWQgalR8qEAAAAAAAAQyA&query=dual-c&search_session_id=28702546867998290857487112663129&search_token=5kP3eQm%2FCdVPjWgfjCsqQNU%2BJNa2vFcM70m0m%2Fd6tpk%3D
 ---
 

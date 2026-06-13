@@ -21,7 +21,7 @@ the search tree using GPUs. Experimental results show that HyPDESPOT speeds up o
 times, compared with the original DESPOT algorithm, in several
 challenging robotic tasks in simulation."
 featured: true 
-publication: "*Robotics: Science & Systems*"
+publication: "*Robotics: Science and Systems (RSS)*, 2018; extended version in *International Journal of Robotics Research (IJRR)*, 2021"
 url_pdf: https://arxiv.org/pdf/1802.06215.pdf
 url_code: https://github.com/AdaCompNUS/HyP-DESPOT
 

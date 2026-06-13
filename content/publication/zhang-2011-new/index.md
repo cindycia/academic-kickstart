@@ -6,6 +6,6 @@ authors: ["Juzheng Zhang", "Panpan Cai", "Guojin Wang"]
 publication_types: ["2"]
 abstract: ""
 featured: false
-publication: "*JOURNAL OF INFORMATION &COMPUTATIONAL SCIENCE*"
+publication: "*Journal of Information & Computational Science*"
 ---
 

@@ -21,7 +21,7 @@ publication_types: ["2"]
 abstract: "This paper presents GAMMA, a general motion prediction model that enables large-scale real-time simulation and planning for autonomous driving. GAMMA models heterogeneous, interactive traffic agents that operate under diverse road conditions, with various geometric and kinematic constraints. GAMMA treats the prediction task as constrained optimization in traffic agents’ velocity space. The objective is to optimize an agent’s driving performance, while obeying all the constraints
 resulting from the agent’s kinematics, collision avoidance with other agents, and the environmental context. Further, GAMMA explicitly conditions the prediction on human behavioral states as parameters of the optimization model, in order to account for versatile human behaviors. We evaluated GAMMA on a set of real-world benchmark datasets. The results show that GAMMA achieves high prediction accuracy on both homogeneous and heterogeneous traffic datasets, with sub-millisecond execution time. Further, the computational efficiency and the flexibility of GAMMA enable (i) simulation of mixed urban traffic at many locations worldwide and (ii) planning for autonomous driving in dense traffic with uncertain driver behaviors, both in real-time. The open-source code of GAMMA is available online."
 
-publication: "*Robotics and Automation Letter*"
+publication: "*IEEE Robotics and Automation Letters (RA-L)*"
 featured: true
 
 url_pdf: https://arxiv.org/pdf/1906.01566.pdf

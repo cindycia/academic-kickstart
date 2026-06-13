@@ -13,7 +13,7 @@ abstract: "When robots operate in the real world, they need to handle uncertaint
 
 featured: true 
 
-publication: "*Robotics: Science & Systems*"
+publication: "*Robotics: Science and Systems (RSS)*"
 
 url_pdf: https://arxiv.org/pdf/2011.03813.pdf 
 url_code: https://github.com/AdaCompNUS/magic

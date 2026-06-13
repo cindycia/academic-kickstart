@@ -13,7 +13,7 @@ abstract: "Autonomous driving in a crowded environment, e.g., a busy traffic int
 
 featured: true 
 
-publication: "*Robotics: Science & Systems*"
+publication: "*Robotics: Science and Systems (RSS)*"
 
 url_pdf: https://arxiv.org/pdf/1905.12197.pdf
 

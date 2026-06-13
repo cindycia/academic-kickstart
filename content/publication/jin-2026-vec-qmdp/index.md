@@ -14,6 +14,7 @@ publication: "*Robotics: Science and Systems (RSS)*"
 featured: true
 
 url_pdf: https://arxiv.org/abs/2602.08334
+url_project: https://sii-boluomonster.github.io/VecQMDP-website/
 
 image:
   caption: ""

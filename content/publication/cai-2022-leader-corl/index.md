@@ -20,10 +20,11 @@ publication_types: ["1"]
 
 abstract: "Uncertainty on human behaviors poses a significant challenge to autonomous driving in crowded urban environments. The partially observable Markov decision processes (POMDPs) offer a principled framework for planning under uncertainty, often leveraging Monte Carlo sampling to achieve online performance for complex tasks. However, sampling also raises safety concerns by potentially missing critical events. To address this, we propose a new algorithm, LEarning Attention over Driving bEhavioRs (LEADER), that learns to attend to critical human behaviors during planning. LEADER learns a neural network generator to provide attention over human behaviors in real-time situations. It integrates the attention into a belief-space planner, using importance sampling to bias reasoning towards critical events. To train the algorithm, we let the attention generator and the planner form a min-max game. By solving the min-max game, LEADER learns to perform risk-aware planning without human labeling."
 
-publication: "*Conference on Robot Learning (CORL) (Best paper finalist)*"
+publication: "*Conference on Robot Learning (CoRL) (Best Paper Finalist)*"
 featured: true
 
 url_pdf: https://arxiv.org/abs/2209.11422
+url_project: https://sites.google.com/view/leader-paper/home
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

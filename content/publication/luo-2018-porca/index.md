@@ -16,7 +16,7 @@ show that it enables a robot scooter to drive safely, efficiently,
 and smoothly in a crowd with a density of nearly one person per
 square meter"
 featured: false
-publication: "*IEEE Robotics and Automation Letters*"
+publication: "*IEEE Robotics and Automation Letters (RA-L)*"
 url_pdf: https://arxiv.org/pdf/1805.11833.pdf
 ---
 

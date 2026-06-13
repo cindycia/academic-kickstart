@@ -22,7 +22,7 @@ a context-aware planner together with benchmark scenarios
 and show that SUMMIT generates complex, realistic traffic
 behaviors in challenging crowd-driving settings."
 featured: true 
-publication: "Presented at ICRA 2020"
+publication: "*IEEE International Conference on Robotics and Automation (ICRA)*"
 url_pdf: https://www.dropbox.com/s/fs0e9j4o0r80e82/SUMMIT.pdf?dl=0 
 url_code: https://github.com/AdaCompNUS/summit
 

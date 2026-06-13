@@ -17,6 +17,36 @@ height = "330px"
 # Duplicate an `[[item]]` block to add more slides.
 
 [[item]]
+  title = "3 papers at NeurIPS 2025"
+  content = "[UniDomain](https://arxiv.org/abs/2507.21545), [Tru-POMDP](https://arxiv.org/abs/2506.02860), and [ForceVLA](https://arxiv.org/abs/2505.22159) accepted at NeurIPS 2025."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#565"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+  cta_label = "Publications"
+  cta_url = "#publications"
+  cta_icon_pack = "fas"
+
+[[item]]
+  title = "2 papers accepted at RSS 2026"
+  content = "[MINT](https://arxiv.org/abs/2602.08602) and [Vec-QMDP](https://arxiv.org/abs/2602.08334) accepted at RSS 2026."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#665"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+  cta_label = "Publications"
+  cta_url = "#publications"
+  cta_icon_pack = "fas"
+
+[[item]]
   title = "Editor for T-RO"
   content = "I am serving as an Associate Editor for the IEEE Transactions on Robotics (T-RO)."
   align = "left"  # Choose `center`, `left`, or `right`.

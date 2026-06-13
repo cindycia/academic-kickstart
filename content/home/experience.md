@@ -37,7 +37,7 @@ date_format = "Jan 2006"
   company = "School of Artificial Intelligence, Shanghai Jiao Tong University"
   company_url = ""
   location = "Shanghai, China"
-  date_start = "2024-01-01"
+  date_start = "2025-01-15"
   date_end = ""
   description = """
   Research topics:
@@ -53,7 +53,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Shanghai, China"
   date_start = "2022-08-15"
-  date_end = "2023-12-31"
+  date_end = "2025-01-14"
   description = """
   Research topics:
   * Integrating planning and learning

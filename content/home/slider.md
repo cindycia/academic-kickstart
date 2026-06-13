@@ -17,6 +17,21 @@ height = "330px"
 # Duplicate an `[[item]]` block to add more slides.
 
 [[item]]
+  title = "Robot Planning Lab @ SJTU"
+  content = "Please check out our group website at [ropl.ai](https://ropl.ai) for the latest research, projects, and openings."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#446"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+
+  cta_label = "Visit our lab"
+  cta_url = "https://ropl.ai"
+  cta_icon_pack = "fas"
+
+[[item]]
   title = "3 papers at NeurIPS 2025"
   content = "[UniDomain](https://arxiv.org/abs/2507.21545), [Tru-POMDP](https://arxiv.org/abs/2506.02860), and [ForceVLA](https://arxiv.org/abs/2505.22159) accepted at NeurIPS 2025."
   align = "left"  # Choose `center`, `left`, or `right`.

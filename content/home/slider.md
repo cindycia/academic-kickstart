@@ -17,7 +17,7 @@ height = "330px"
 # Duplicate an `[[item]]` block to add more slides.
 
 [[item]]
-  title = "RoPL: Robot Planning and Learning Lab @ SJTU"
+  title = "RoPL: Robot Planning and Learning Lab"
   content = "Please check out our group website at [ropl.ai](https://ropl.ai) for the latest research, projects, and openings."
   align = "left"  # Choose `center`, `left`, or `right`.
 

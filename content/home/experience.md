@@ -27,9 +27,10 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Research topics:
-  * Integrating planning and learning
-  * Embodied AI and robot foundation models
-  * Robot manipulation
+  * Robotics and embodied AI
+  * Foundation models for robot planning
+  * Open-world robot planning
+  * Mobile manipulation for home-service robots
   """
 
 [[experience]]
@@ -43,8 +44,8 @@ date_format = "Jan 2006"
   Research topics:
   * Integrating planning and learning
   * Planning under uncertainty
+  * Mobile manipulation
   * Autonomous driving
-  * Robot manipulation
   """
 
 [[experience]]

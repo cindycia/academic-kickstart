@@ -1,0 +1,383 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\usepackage{geometry}
+ \geometry{
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ bottom=20mm,
+ }
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+%\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Dr. Panpan}{Cai}
+% \title{Robotics, Artificial Intelligence, Parallel Computing}                               % optional, remove / comment the line if not wanted
+%\address{#06-31 BLK 17 Jurong West Ave 5}{Singapore 649491}{Singapore}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\title{Doctor of Philosophy}
+% \phone[mobile]{+65 98257466}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{cppmayontu@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{cindycia.github.io}                         % optional, remove / comment the line if not wanted
+%\extrainfo{Phd student in NTU}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace*{-0.7cm}
+%\cvitem{Supervisors}{Dr. Cai Yiyu}
+
+% original:My PhD research topic is a industry related motion planning problem. It aims to improve the safety and productivity of involved industries through automating the lifting operations for mobile cranes using collision detection and motion planning technologies. A GPU-accelerated software system is developed as both a simulator and a lifting path planner. 
+%}
+%\cvitem{key words}{Parallel computing, hardware-accelerated collision detection, global optimization motion planning}
+% \section{Personal Statement}
+% I am a roboticist. 
+% I have been conducting active research in robotic decision making under uncertainty, robot learning, and integrating them to solve complex real-world problems. My research vision is to enable robots to operate efficiently in large-scale, dynamic, and uncertain environments, interact seamlessly with human, and accomplish challenging tasks. Please see the video at \href{https://youtu.be/S1W8mXMQFAA}{https://youtu.be/S1W8mXMQFAA} for a 3-min introduction of my recent research.
+I am a roboticist.
+I have been conducting active research in decision making under uncertainty, robot learning, and integrating them to solve complex real-world robotics problems. My research vision is to enable robots to operate efficiently in large-scale, dynamic, and uncertain environments like human, and accomplish challenging tasks. 
+% Please see the video at \href{https://youtu.be/S1W8mXMQFAA}{https://youtu.be/S1W8mXMQFAA} for a 3-min introduction of my recent research.
+
+\section{Education}
+%\cventry{2007--2011}{Bachelor's Degree in Information and Computing Science}{Zhejiang University}{Hangzhou, China}{\textit{GPA:***}}{Description (thesis title and supervisor)***}
+\cventry{2011.8--2016.7}{Doctor of Philosophy}{Nanyang Technological University}{Singapore}{}{Research on robotic motion planning, collision detection, and GPU computing.}% Thesis submitted in Aug.2015. Conferment of degree in Jul.2016.
+%}
+% \cvitem{PhD Thesis}{\emph{Massively Parallelized GA Based Optimal Path Planning for Single and Dual Crane Lifting in Complex Industrial Environments}}
+\cventry{2007.8--2011.6}{Bachelor's Degree in Mathematics (specialized on Information and Computing Science)\\\textit{Top student selected into the ChuKoChen Honors College}}{Zhejiang University}{Hangzhou, China}{}{Trained on Mathematics, scientific computing, and Computer Aided Geometric Design (CAGD).}
+
+% LeTS-Drive (\href{https://arxiv.org/abs/2101.03834}{Paper}, \href{https://youtu.be/5F8_wGW8QCM?t=1081}{Talk})
+% MAGIC (\href{https://arxiv.org/abs/2011.03813}{paper})
+% HyP-DESPOT (\href{https://arxiv.org/abs/1802.06215}{Paper}, \href{https://youtu.be/bih5e9MHc88?t=51}{Talk})
+% PORCA (\href{https://arxiv.org/abs/1805.11833}{Paper}, \href{https://youtu.be/FMPS303o6C4}{Video}) and GAMMA (\href{https://arxiv.org/abs/1906.01566}{Paper}, \href{https://youtu.be/aNWZdCdCL0M}{Video})
+% SUMMIT (\href{https://arxiv.org/abs/1911.04074}{Paper}, \href{https://youtu.be/rF-n52gnMw0}{Talk})
+\section{Professional Experience}
+%\subsection{Vocational and Academic}
+\cventry{2022--now}{Associate professor}{Qing Yuan Research Institute, Shanghai Jiao Tong University}{China}{}{ 
+\begin{itemize}%
+  \item Started my own research group on robot intelligence;
+  \item Research scope: robot learning, robot decision making, reinforcement learning, integrating planning and learning;
+  \item Application domains: autonomous driving and home service robots.
+  \end{itemize}
+}
+\cventry{2021--2022}{Senior postdoctoral research fellow}{Department of Computer Science, National University of Singapore}{Singapore}{}{ 
+\begin{itemize}%
+  \item Conduct independent research and lead research projects on integrating planning with reinforcement learning;
+  \item Publish in top robotics conferences and journals, including T-RO, RAL, RSS, and ICRA;
+  \item Mentored an undergraduate student for an award-winning final year project, as well as master students and research interns for independent research;
+  \item Organized an international workshop (main organizer) under a top robotics conference, RSS 2021;
+%   \item Organize weekly reading groups for the research group;
+  \item Taught two lectures in a graduate-level robotics class on POMDP planning, robot systems, and autonomous driving.
+  \end{itemize}
+}
+\cventry{2017--2020}{Postdoctoral research fellow}{Department of Computer Science, National University of Singapore}{Singapore}{}{ 
+\begin{itemize}%
+  \item Conduct independent research and lead research projects on decision making under uncertainty, integrating planning and learning, and autonomous driving in crowded environments;
+  \item Publish in top robotics conferences and journals, including IJRR, RAL, RSS, ICRA, and IROS;
+  \item Mentored PhD, undergraduate, and intern students for independent research;
+%   \item Organize weekly reading groups for the research group;
+%   \item Actively reviewing for top robotics conferences and journals;
+  \item Taught a lecture in a graduate-level robotics class on sampling-based motion planning.
+  \end{itemize}
+}
+%\subsection{Academic}
+\cventry{2011--2016}{PhD student}{School of Mechanical and Aerospace Engineering, Nanyang Technological University}{Singapore}{}{
+%\begin{itemize}%
+%\item 
+  \begin{itemize}%
+  \item Conduct independent research on parallel collision detection and motion planning in large-scale industrial environments;
+  \item Publish in tier-one journals on industrial applications of robotics and automation;
+  \item Close collaboration with a listed lifting service company;
+  \item Published a patent on intelligent crane-lifting systems.
+  \item Taught an undergraduate-level lab project. 
+  \end{itemize}
+%\item ;
+%\item Achievement 3.
+%\end{itemize}
+}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+
+%\section{Awards}
+%\textbf{Best paper award} in 2013 Symposium on GPU Computing and Applications co-organized by NVIDIA held on Oct 2013 with the paper ``A GPU-enabled parallel genetic algorithm for path planning''.
+
+%\cvdoubleitem{Graphics}{OpenGL}{category 6}{XXX, YYY, ZZZ}
+%\section{Patent}
+%Y. Cai, P. Cai, C. Indhumathi, J. Zheng, N. M. Thalmann, P. Wong, T. S. Lim and Y. Gong, ``Method and system for intelligent crane lifting'', PCT filing (USA/German/China/Singapore) PCT/SG2014/000472, 8 October 2014.
+
+\section{Publications}
+\cvitem{Overview}
+{
+\newline
+Citation: 533 (queried at 05.06.2023)
+\newline
+H-index: 10
+\newline
+i10-index: 10
+}
+
+\cvitem{Peer-reviewed journal papers}{
+\begin{itemize}
+\item \underline{P. Cai} and D. Hsu. Closing the Planning-Learning Loop with Application to Autonomous Driving in a Crowd. \textit{IEEE Transactions on Robotics (T-RO)}, 2023, DOI:10.1109/TRO.2022.3210767. %(Impact factor: 5.567).
+\item Y. Luo*, \underline{P. Cai* (co-first author, corresponding author)}, D. Hsu, and WS Lee. GAMMA: A General Agent Motion Model for Autonomous Driving. \textit{IEEE Robotics and Automation Letters (RAL)}, 2022, DOI:10.1109/LRA.2022.3144501. %(Impact factor: 3.741).
+\item \underline{P. Cai}, Y. Luo, D. Hsu, and W.S. Lee. HyP-DESPOT: A Hybrid Parallel Algorithm for Online Planning under Uncertainty. \textit{International Journal of Robotics Research (IJRR)}, 2021, DOI:10.1177/0278364920937074. %(Impact factor: 4.703).
+\item Y. Luo, \underline{P. Cai}, A. Bera, D. Hsu, W.S. Lee, and D. Manocha. PORCA: Modeling and planning for autonomous driving among many pedestrians. \textit{IEEE Robotics & Automation Letters (RAL)}, 2018, DOI:10.1109/LRA.2018.2852793. %(Impact factor: 3.741).
+\item \underline{P. Cai}, Y. Cai, I. Chandrasekaran, and J. Zheng ``Automatic Path Planning for Dual-Crane Lifting in Complex Environments Using a Prioritized Multi-objective PGA'', \textit{IEEE Transactions on Industrial Informatics (TII)}, 2017, DOI:10.1109/TII.2017.2715835. %(Impact factor: 10.215). 
+\item \underline{P. Cai}, Y. Cai, I. Chandrasekaran, and J. Zheng. ``Parallel GA based automatic crane lifting path planning in complex environments'', \textit{Automation in Construction (AIC)}, 2016, DOI:10.1016/J.AUTCON.2015.09.007. %(Impact factor: 7.7).
+% \item J. Zhang, \underline{P. Cai}, and G. Wang. A New Approach to Design Rational Harmonic Surface over Rectangular or Triangular Domain. \textit{Journal of Information \& Computational Science}, 2011, DOI:10.1.1.353.1703. (Published during undergraduate study).
+\end{itemize}
+}
+
+\cvitem{Peer-reviewed conference papers}
+{
+\begin{itemize}
+\item M. H. Danesh, \underline{P. Cai (corresponding author)}, D.Hsu. LEADER: Learning Attention over Driving Behaviors for Planning under Uncertainty. \textit{Conference on Robot Learning (CoRL)} (\underline{Best paper finalist}), Dec 2022, PMLR 205:199-211. 
+\item Y. Lee and \underline{P. Cai}, and D. Hsu. MAGIC: Learning Macro-Actions for Online POMDP Planning using Generator-Critic. \textit{Robotics: Science \& Systems (RSS)}, July 2021, DOI:10.15607/RSS.2021.XVII.041. %(Research impact score: 5.45).
+\item \underline{P. Cai* (co-first author)}, Y. Lee*, Y. Luo, D. Hsu. SUMMIT: A Simulator for Urban Driving in Massive Mixed Traffic. \textit{International Conference on Robotics and Automation (ICRA)}, June 2020, DOI:10.1109/ICRA40945.2020.9197228. %(Research impact score: 5.75).
+\item \underline{P. Cai}, Y. Luo, A. Saxena, D. Hsu, W.S. Lee. LeTS-Drive: Driving in a Crowd by Learning from Tree Search. \textit{Robotics: Science \& Systems (RSS)}, June 2019, DOI:10.15607/RSS.2019.XV.018. %(Research impact score: 5.45).
+\item M. Meghjani, Y. Luo, Q.H. Ho, \underline{P. Cai}, S. Verma,
+D. Rus, D. Hsu. Context and Intention Aware Planning for Urban Driving. \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, Nov. 2019, DOI:10.1109/IROS40897.2019. 8967873. %(Research impact score: 10.06).
+\item \underline{P. Cai}, Y. Luo, D. Hsu, and W.S. Lee. HyP-DESPOT: A Hybrid Parallel Algorithm for Online Planning under Uncertainty. \textit{Robotics: Science \& Systems (RSS)}, June 2018, DOI:10.15607/RSS.2018.XIV.004. %(Research impact score: 5.45).
+\item L. Huang, Y. Zhang, J. Zheng, \underline{P. Cai}, S. Dutta, Y. Yue, N. Thalmann and Y. Cai. Point cloud based path planning for tower crane lifting. Computer Graphics International Conference (CGI), June 2018, DOI:10.1145/3208159.3208186.
+\item \underline{P. Cai}, Y. Cai, I. Chandrasekaran, and J. Zheng, ``A GPU-enabled parallel genetic algorithm for path planning'', 2013 Symposium on GPU Computing and Applications (\underline{Best Paper}), Oct 2013, DOI:10.1007/978-981-287-134-3\_1.
+\end{itemize}
+}
+
+\cvitem{Book chapters}
+{
+\begin{itemize}
+% \item \underline{P. Cai},  Y.  Cai,  I.  Chandrasekaran,  and  J.  Zheng,  ``A  GPU-enabled parallel genetic algorithm for path planning of robotic operators'', in \textit{GPU Computing and Applications}, ISBN 978-981-287-134-3, 2015, DOI:10.1007/978-981-287-134-3\_1.
+\item \underline{P. Cai}, I. Chandrasekaran, Y. Cai, Y. Chen, and X. Wu. Simulation-enabled vocational training for heavy crane operations. In \textit{Simulation and Serious Games for Education} (pp. 47-59), 2017, DOI: 10.1007/978-981-10-0861-0\_4.
+\item \underline{P. Cai}, C. Indhumathi, Y. Cai, J. Zheng, Y. Gong, T. Lim, and P. Wong. Collision detection  using  axis  aligned  bounding  boxes. In \textit{Simulations, Serious Games and Their Applications} (pp. 1-14), 2014, DOI:10.1007/978-981-4560-32-0\_1.%\newline{}
+\end{itemize}
+}
+
+\section{Patent}
+\cvitem{}{
+\begin{itemize}
+\item Y. Cai, \underline{P. Cai}, C. Indhumathi, J. Zheng, N. M. Thalmann, P. Wong, T. S. Lim and Y. Gong, PEC Ltd and Nanyang Technological University. Method and system for intelligent crane lifting. WIPO (PCT), 2015, WO2015053711A1.
+\end{itemize}}
+
+% \section{Participation in Research Projects}
+% \cvitem{}{
+% \begin{itemize}
+% \item A*STAR, Government Grant, R-252-000-B01-305, “Human-Robot Interaction”, 2019-10 to 2023-03, 1,019,500 SGD, Ongoing, Participate.
+% \item Singapore Ministry of Education, Government Grant, R-252-000-644-112, “Integrated Planning and Learning for Robust Decision Making under Uncertainty”, 2017-07 to 2020-12, 524,000 SGD, Completed, Participate.
+% \item Singapore-MIT Alliance for Research & Technology, Government Grant, R-252-000-627-592, “Autonomous Vehicle Mobility-On-Demand Systems”, 2017-04 to 2021-05, 302,640 SGD, Completed, Participate.
+% \item PEC Ltd, Industry Grant, M4060895, “Intelligent and Interactive Simulation for Industrial Heavy Lifting”, 2011-4 to 2017-12, 369,500 SGD, Completed, Participate.
+% \end{itemize}}
+% \newpage
+
+\section{Professional Services}
+\cvitem{Program and Organization Committees}
+{\begin{itemize}
+\item Associate Editor, IEEE International Conference on Robotics and Automation (ICRA), 2023.
+    \item Program committee member, International Conference on Automated Planning and Scheduling (ICAPS), 2022.
+    \item Main organizer, \href{https://planandlearn.net/}{RSS 2021 workshop on Integrating Planning and Learning.}
+    \item Organization committee member, RSS Pioneers Workshop, 2021.
+    \item Program committee member, Robotics: Science \& Systems (RSS), 2020.
+    \item Program committee member, Conference on Robot Learning (CORL), 2019.
+    \item Organization committee member, CS research week 2019, School of Computing, NUS.
+\end{itemize}}
+% \cventry{}{}{Program and Organisation Committees}{}{}{
+% \begin{itemize}
+%     \item Main organizer, \href{https://planandlearn.net/}{RSS 2021 workshop on Integrating Planning and Learning.}
+%     \item Program committee member, International Conference on Automated Planning and Scheduling (ICAPS), 2022.
+%     \item Program committee member, Robotics: Science \& Systems (RSS), 2020.
+%     \item Program committee member, Conference on Robot Learning (CORL), 2019.
+%     \item Program committee member, CS research week 2019, School of Computing, NUS.
+%     % \item Speaker, NUS SOC research Workshop in Vietnam, 2019.
+% \end{itemize}}
+\cvitem{\textbf{Paper Review}}{
+\begin{itemize}
+    \item International Journal of Robotics Research (IJRR)
+    \item IEEE Transactions on Robotics (T-RO)
+    \item Robotics: Science \& Systems (RSS)
+    \item IEEE Robotics and Automation Letters (RAL)
+    \item Autonomous Robots (AURO)
+    \item IEEE International Conference on Robotics and Automation (ICRA)
+    \item International Conference on Intelligent Robots and Systems (IROS)
+    \item American Control Conference (ACC)
+    \item International Joint Conference on Artificial Intelligence (IJCAI)
+\end{itemize}}
+% \end{cvcolumns}
+
+% \newline
+
+% \section{Awards}
+% \textbf{Best paper award} in 2013 Symposium on GPU Computing and Applications co-organized by NVIDIA held on Oct 2013 with the paper ``A GPU-enabled parallel genetic algorithm for path planning''.
+
+\section{Teaching \& Mentoring}
+\cvitem{Lecturing}
+{\begin{itemize}
+    % \item Mentored $7$ students for various research projects, including student interns, research assistants, a master student and a PhD student.
+    \item Co-lecturing, Module CS3317 ``Artificial Intelligence'', Autumn Semester, 2022/2023, SJTU.
+    \begin{itemize}
+        \item Undergraduate-level course, covering more than 50 students.
+    \end{itemize}
+    \item Co-lecturing, Module CS4278/CS5478 ``Intelligent Robots: Algorithms and Systems'', Semester 1\&2, 2021/2022, NUS.
+    \begin{itemize}
+        \item Graduate-level course, covering more than 100 students.
+        \item Delivered Lecture 11 \underline{``POMDP planning.''}
+        \item Delivered Lecture 12 \underline{``Robot systems.''}
+    \end{itemize}
+    \item Co-lecturing, Module CS6244 ``Robot Motion Planning \& Control'', Semester 1, 2017/2018, Lecture 3, NUS.
+    \begin{itemize}
+        \item Graduate-level course, covering 20-30 students.
+        \item Delivered Lecture 3 \underline{``Sampling-based motion planning.''}
+    \end{itemize}
+    \item Teaching assistance, Project P3.6 ``Vibration Testing of Multiple DOF Systems'' for AY 2015/16, S1 \& S2, NTU.
+    \begin{itemize}
+        \item Undergraduate-level class, covering 12 students.
+        \item Delivered a series of short lectures on the \underline{theory of mechanical vibration} and guided lab experiments.
+    \end{itemize}
+\end{itemize}}
+\cvitem{Mentoring}{
+\begin{itemize}
+    \item Supervising PhD students and master students at Shanghai Jiao Tong University. 
+    \item Co-supervising \underline{Mr. Yunfan Lu} for his master research. He is now a Senior Robotics Software Engineer at \underline{Dyson}.
+    \item Supervising \underline{Mr. Mohamad Danesh} for his research internship. He is now a research engineer at \underline{Ivy}.
+    \item Co-supervised \underline{Mr. Yiyuan Lee} for his Final Year Project; He is now a PhD candidate at \underline{Rice University}.
+    \item Supervised \underline{Ms. Shuyuan Jin} for her Final Year Project. She is now a Software Engineer at \underline{Facebook}.
+    \item Co-supervised \underline{Dr. Yuanfu Luo} for his PhD research. He is now an algorithm engineer at \underline{Da-Jiang Innovations}.
+    \item Supervised \underline{Mr. Arthur Wandzel} for his research internship. He is now the co-founder of \underline{JAMM}, an AI startup.  
+    \item Supervised \underline{Mr. Aseem Saxena} for his research internship. He is now a master student at \underline{Oregon State University}.
+\end{itemize}}
+
+\section{Research Talks}
+\begin{itemize}
+    % \item Invited job talk at Department of Automation, \underline{Tsinghua University}. Sep 2021.
+    % \begin{itemize}
+    %     % \item Inviter: Dr. Xiangyang Ji
+    %     \item Title: "How does a robot drive better than us?"
+    % \end{itemize}
+    \item Invited talk at \underline{Kuwa Robot}. ``How does a robot drive better than us?'', May 2023.
+    \item Invited talk at \underline{SenseTime}, an international AI company. ``How does a robot drive better than us?'', Aug 2022.
+    \item Invited talk at the Computer Science Department at \underline{Brown University}. ``How does a robot drive better than us?'', Aug 2020.
+    \item AI lunch talk at the School of Computing, \underline{National University of Singapore}. ``Hybrid intelligence of robots: modeling, decision making, and learning'', Oct 2019.
+    \item Invited talk at \href{https://www.isee.ai/}{\underline{ISEE AI}}, an MIT startup on autonomous driving. ``How can a robot drive better than us?'', Nov 2019.
+    % \item \href{https://www.comp.nus.edu.sg/programmes/pg/workshops/vietnam/}{Talk} at the \underline{NUS SOC} research Workshop in \underline{Ho Chi Minh, Vietnam}, March 2019.
+    % \begin{itemize}
+    %     \item Title: "Decision Making for Autonomous Driving."
+    % \end{itemize}
+    \item \href{http://www.math.zju.edu.cn/mathen/2018/0509/c38278a1596436/page.htm}{Invited talk} at the School of Mathematical Sciences, \underline{Zhejiang University}. ``Planning under uncertainty in robotics: theory to practice, and serial to parallel'', May 2018.
+\end{itemize}
+
+% \newline
+\section{References}
+% \begin{cvcolumns}
+%   \cvcolumn{}{
+  \begin{itemize}
+  \item \underline{Dr. David Hsu (IEEE Fellow)}.
+  \\ Provost's Chair Professor. Department of Computer Science. National University of Singapore. 
+  \\ Relationship: Postdoc supervisor.
+  \\ Email: dyhsu@comp.nus.edu.sg
+  \\ Phone: +65 6825 4200
+  \item \underline{Dr. Wee Sun Lee}.
+  \\ Professor, Head of Department. Department of Computer Science. National University of Singapore. 
+  \\ Relationship: close collaborator.
+  \\ Email: leews@comp.nus.edu.sg
+  \\ Phone: +65 6516 4526
+  \item \underline{Dr. Yiyu Cai}. 
+  \\ Associate professor. School of Mechanical and Aerospace Engineering. Nanyang Technological University.
+  \\ Relationship: PhD supervisor.
+  \\ Email: MYYCai@ntu.edu.sg
+  \\ Phone: +65 6790 5941
+  \end{itemize}
+%   }
+% \end{cvcolumns}
+
+
+
+
+
+
+%\section{Interests}
+%\cvitem{reading}{Prose and novels.}
+%\cvitem{music}{Both pop and classic music are preferable to me.}
+%\cvitem{sports}{Table tennis and Yoga.}
+
+%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%\date{January 01, 1984}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+%Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+%Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+%Albert Einstein discovered that $e=mc^2$ in 1905.
+
+%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+
+%\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

@@ -1,0 +1,229 @@
+%% CV — Dr. Panpan Cai
+%% Updated: 2026-06-13 — synced with academic_website content/publication and
+%% experience/news data in cindycia_v2.
+
+\documentclass[10pt,letterpaper,sans]{moderncv}
+
+\moderncvstyle{banking}
+\moderncvcolor{black}
+
+\usepackage{geometry}
+\geometry{
+  left=20mm,
+  right=20mm,
+  top=18mm,
+  bottom=18mm,
+}
+
+\usepackage[utf8]{inputenc}
+%% NOTE: do not \usepackage{hyperref} here — moderncv loads hyperref itself
+%% and a second \usepackage triggers an "Option clash" fatal error.
+
+% personal data
+\name{Dr. Panpan}{Cai}
+\email{cai\_panpan@sjtu.edu.cn}
+\homepage{cindycia.github.io}
+\address{}{Shanghai}{China}
+
+\begin{document}
+\makecvtitle
+\vspace*{-0.7cm}
+
+I am a roboticist. I have been conducting active research in decision making under uncertainty, robot learning, and integrating them to solve complex real-world robotics problems. My research vision is to enable robots to operate efficiently in large-scale, dynamic, and uncertain environments like humans, and accomplish challenging tasks. I currently hold a Full-time Faculty appointment at the \href{https://www.sii.edu.cn/2025/1001/c82a512/page.htm}{Shanghai Innovation Institute} and an Associate Professorship at the \href{https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/caipanpan}{School of Artificial Intelligence}, Shanghai Jiao Tong University, where I lead the \href{https://ropl.ai}{Robot Planning and Learning (RoPL) Lab}.
+
+\section{Education}
+\cventry{2011.8--2016.7}{Doctor of Philosophy}{Nanyang Technological University}{Singapore}{}{Research on robotic motion planning, collision detection, and GPU computing.}
+\cventry{2007.8--2011.6}{Bachelor's Degree in Mathematics (Information and Computing Science)}{Zhejiang University}{Hangzhou, China}{}{\textit{Top student selected into the Chu Kochen Honors College.} Trained in mathematics, scientific computing, and Computer Aided Geometric Design (CAGD).}
+
+\section{Professional Experience}
+\cventry{2024.9--now}{Full-time Faculty}{\href{https://www.sii.edu.cn/2025/1001/c82a512/page.htm}{Shanghai Innovation Institute (SII)}}{Shanghai, China}{}{
+\begin{itemize}
+  \item Foundation models for robot planning;
+  \item Open-world robot planning and embodied AI;
+  \item Mobile manipulation for home-service robots.
+\end{itemize}
+}
+\cventry{2025.1--now}{Associate Professor}{\href{https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/caipanpan}{School of Artificial Intelligence}, Shanghai Jiao Tong University}{Shanghai, China}{}{
+\begin{itemize}
+  \item Lead the \href{https://ropl.ai}{Robot Planning and Learning (RoPL) Lab};
+  \item Research scope: integrating planning and learning, planning under uncertainty, mobile manipulation, autonomous driving;
+  \item Supervising PhD and master students.
+\end{itemize}
+}
+\cventry{2022.8--2025.1}{Associate Professor}{Qing Yuan Research Institute, Shanghai Jiao Tong University}{Shanghai, China}{}{
+\begin{itemize}
+  \item Started my own research group on robot intelligence;
+  \item Research scope: robot learning, robot decision making, reinforcement learning, integrating planning and learning;
+  \item Application domains: autonomous driving and home-service robots.
+\end{itemize}
+}
+\cventry{2021.12--2022.1}{Senior Postdoctoral Research Fellow}{Department of Computer Science, National University of Singapore}{Singapore}{}{
+\begin{itemize}
+  \item Conducted independent research and led research projects on integrating planning with reinforcement learning;
+  \item Published in top robotics venues including T-RO, RA-L, RSS, and ICRA;
+  \item Mentored an undergraduate for an award-winning final-year project, master students, and research interns;
+  \item Main organizer of an international workshop at RSS 2021;
+  \item Taught two lectures in a graduate-level robotics class on POMDP planning, robot systems, and autonomous driving.
+\end{itemize}
+}
+\cventry{2017.2--2021.12}{Postdoctoral Research Fellow}{Department of Computer Science, National University of Singapore}{Singapore}{}{
+\begin{itemize}
+  \item Conducted independent research on decision making under uncertainty, integrating planning and learning, and autonomous driving in crowded environments;
+  \item Published in top robotics venues including IJRR, RA-L, RSS, ICRA, and IROS;
+  \item Mentored PhD, undergraduate, and intern students for independent research;
+  \item Taught a lecture in a graduate-level robotics class on sampling-based motion planning.
+\end{itemize}
+}
+\cventry{2011--2016}{PhD student}{School of Mechanical and Aerospace Engineering, Nanyang Technological University}{Singapore}{}{
+\begin{itemize}
+  \item Independent research on parallel collision detection and motion planning in large-scale industrial environments;
+  \item Published in tier-one journals on industrial applications of robotics and automation;
+  \item Close collaboration with a listed lifting service company;
+  \item Filed a patent on intelligent crane-lifting systems;
+  \item Taught an undergraduate-level lab project.
+\end{itemize}
+}
+
+\section{Awards \& Honors}
+\cvitem{}{
+\begin{itemize}
+  \item \textbf{Best Paper Award Finalist}, Conference on Robot Learning (CoRL), 2022, for ``LEADER: Learning Attention over Driving Behaviors for Planning under Uncertainty'' (oral acceptance rate $\sim$6.5\%).
+  \item \textbf{Best Paper Award}, 2013 Symposium on GPU Computing and Applications (co-organized by NVIDIA), for ``A GPU-enabled parallel genetic algorithm for path planning''.
+\end{itemize}}
+
+\section{Publications}
+\cvitem{}{(*) denotes co-first author. Where I am the corresponding author, this is indicated explicitly.}
+
+\cvitem{Peer-reviewed journal papers}{
+\begin{itemize}
+  \item X. Jin, C. Zeng, S. Zhu, C. Liu, \underline{P. Cai (corresponding author)}. Hi-Drive: Hierarchical POMDP Planning for Safe Autonomous Driving in Diverse Urban Environments. \textit{IEEE Robotics and Automation Letters (RA-L)}, 2025.
+  \item \underline{P. Cai} and D. Hsu. Closing the Planning-Learning Loop with Application to Autonomous Driving in a Crowd. \textit{IEEE Transactions on Robotics (T-RO)}, 2023, DOI:10.1109/TRO.2022.3210767.
+  \item Y. Luo*, \underline{P. Cai* (co-first and corresponding author)}, Y. Lee, D. Hsu. GAMMA: A General Agent Motion Model for Autonomous Driving. \textit{IEEE Robotics and Automation Letters (RA-L)}, 2022, DOI:10.1109/LRA.2022.3144501.
+  \item \underline{P. Cai}, Y. Luo, D. Hsu, W.S. Lee. HyP-DESPOT: A Hybrid Parallel Algorithm for Online Planning under Uncertainty. \textit{International Journal of Robotics Research (IJRR)}, 2021, DOI:10.1177/0278364920937074.
+  \item Y. Luo, \underline{P. Cai}, A. Bera, D. Hsu, W.S. Lee, D. Manocha. PORCA: Modeling and Planning for Autonomous Driving among Many Pedestrians. \textit{IEEE Robotics and Automation Letters (RA-L)}, 2018, DOI:10.1109/LRA.2018.2852793.
+  \item \underline{P. Cai}, Y. Cai, I. Chandrasekaran, J. Zheng. Automatic Path Planning for Dual-Crane Lifting in Complex Environments Using a Prioritized Multi-objective PGA. \textit{IEEE Transactions on Industrial Informatics (TII)}, 2017, DOI:10.1109/TII.2017.2715835.
+  \item \underline{P. Cai}, Y. Cai, I. Chandrasekaran, J. Zheng. Parallel GA Based Automatic Crane Lifting Path Planning in Complex Environments. \textit{Automation in Construction (AIC)}, 2016, DOI:10.1016/j.autcon.2015.09.007.
+\end{itemize}
+}
+
+\cvitem{Peer-reviewed conference papers}{
+\begin{itemize}
+  \item R. Huang, C. Zeng, W. Tang, J. Cai, C. Lu, \underline{P. Cai (corresponding author)}. Mimic Intent, Not Just Trajectories. \textit{Robotics: Science and Systems (RSS)}, 2026.
+  \item X. Jin, Y. Dong, B. Sun, H. Xu, Z. Hao, X. Lang, \underline{P. Cai (corresponding author)}. Vec-QMDP: Vectorized POMDP Planning on CPUs for Real-Time Autonomous Driving. \textit{Robotics: Science and Systems (RSS)}, 2026.
+  \item W. Tang, X. He, Y. Huang, Y. Xiao, C. Lu, \underline{P. Cai (corresponding author)}. Tru-POMDP: Task Planning Under Uncertainty via Tree of Hypotheses and Open-Ended POMDPs. \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2025.
+  \item H. Ye, Y. Xiao, C. Lu, \underline{P. Cai (corresponding author)}. UniDomain: Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning. \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2025.
+  \item J. Yu*, H. Liu*, Q. Yu*, J. Ren, C. Hao, H. Ding, G. Huang, G. Huang, Y. Song, \underline{P. Cai}, W. Zhang, C. Lu. ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation. \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2025.
+  \item S. Wang, Z. Fei, Q. Cheng, S. Zhang, \underline{P. Cai}, J. Fu, X. Qiu. World Modeling Makes a Better Planner: Dual Preference Optimization for Embodied Task Planning. \textit{Annual Meeting of the Association for Computational Linguistics (ACL)}, 2025.
+  \item P. Tran*, H. Wu*, C. Yu*, \underline{P. Cai}, S. Zheng, D. Hsu. What Truly Matters in Trajectory Prediction for Autonomous Driving? \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2023.
+  \item M.H. Danesh*, \underline{P. Cai* (corresponding author)}, D. Hsu. LEADER: Learning Attention over Driving Behaviors for Planning under Uncertainty. \textit{Conference on Robot Learning (CoRL)} (\underline{Best Paper Finalist}), 2022, PMLR 205:199--211.
+  \item Y. Lee, \underline{P. Cai}, D. Hsu. MAGIC: Learning Macro-Actions for Online POMDP Planning using Generator-Critic. \textit{Robotics: Science \& Systems (RSS)}, 2021, DOI:10.15607/RSS.2021.XVII.041.
+  \item \underline{P. Cai* (co-first author)}, Y. Lee*, Y. Luo, D. Hsu. SUMMIT: A Simulator for Urban Driving in Massive Mixed Traffic. \textit{International Conference on Robotics and Automation (ICRA)}, 2020, DOI:10.1109/ICRA40945.2020.9197228.
+  \item M. Meghjani, Y. Luo, Q.H. Ho, \underline{P. Cai}, S. Verma, D. Rus, D. Hsu. Context and Intention Aware Planning for Urban Driving. \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2019, DOI:10.1109/IROS40897.2019.8967873.
+  \item \underline{P. Cai}, Y. Luo, A. Saxena, D. Hsu, W.S. Lee. LeTS-Drive: Driving in a Crowd by Learning from Tree Search. \textit{Robotics: Science \& Systems (RSS)}, 2019, DOI:10.15607/RSS.2019.XV.018.
+  \item \underline{P. Cai}, Y. Luo, D. Hsu, W.S. Lee. HyP-DESPOT: A Hybrid Parallel Algorithm for Online Planning under Uncertainty. \textit{Robotics: Science \& Systems (RSS)}, 2018, DOI:10.15607/RSS.2018.XIV.004.
+  \item L. Huang, Y. Zhang, J. Zheng, \underline{P. Cai}, S. Dutta, Y. Yue, N. Thalmann, Y. Cai. Point cloud based path planning for tower crane lifting. \textit{Computer Graphics International Conference (CGI)}, 2018, DOI:10.1145/3208159.3208186.
+  \item \underline{P. Cai}, Y. Cai, I. Chandrasekaran, J. Zheng. A GPU-enabled parallel genetic algorithm for path planning. 2013 Symposium on GPU Computing and Applications (\underline{Best Paper Award}), 2013, DOI:10.1007/978-981-287-134-3\_1.
+\end{itemize}
+}
+
+\cvitem{Preprints (under review)}{
+\begin{itemize}
+  \item Y. Huang, Z. Wang, W. Tang, C. Lu, \underline{P. Cai (corresponding author)}. I-Perceive: A Foundation Model for Vision-Language Active Perception. \textit{arXiv preprint}, 2026.
+  \item Z. Liu, Y. Li, R. Huang, C. Lu, \underline{P. Cai (corresponding author)}. Any House Any Task: Scalable Long-Horizon Planning for Abstract Human Tasks. \textit{arXiv preprint}, 2026.
+  \item H. Ye, Y. Xiao, C. Lu, \underline{P. Cai (corresponding author)}. UniPlan: Vision-Language Task Planning for Mobile Manipulation with Unified PDDL Formulation. \textit{arXiv preprint}, 2026.
+  \item Y. Lu, Y. Ma, D. Hsu, \underline{P. Cai (corresponding author)}. Neural Randomized Planning for Whole Body Robot Motion. \textit{arXiv preprint}, 2024.
+  \item R. Zhang, J. Hou, F. Walter, S. Gu, J. Guan, F. R\"ohrbein, Y. Du, \underline{P. Cai}, G. Chen, A. Knoll. Multi-Agent Reinforcement Learning for Autonomous Driving: A Survey. \textit{arXiv preprint}, 2024.
+  \item H. Cao, Z. Zhang, \underline{P. Cai}, Y. Liu, J. Zou, E. Abbasnejad, B. Huang, M. Gong, A. van den Hengel, J.Q. Shi. Rethinking State Disentanglement in Causal Reinforcement Learning. \textit{arXiv preprint}, 2024.
+  \item Y. Lee, K. Lee, \underline{P. Cai}, D. Hsu, L.E. Kavraki. The Planner Optimization Problem: Formulations and Frameworks. \textit{arXiv preprint}, 2023.
+\end{itemize}
+}
+
+\cvitem{Book chapters}{
+\begin{itemize}
+  \item \underline{P. Cai}, I. Chandrasekaran, Y. Cai, Y. Chen, X. Wu. Simulation-Enabled Vocational Training for Heavy Crane Operations. In \textit{Simulation and Serious Games for Education} (pp. 47--59), 2017, DOI:10.1007/978-981-10-0861-0\_4.
+  \item \underline{P. Cai}, C. Indhumathi, Y. Cai, J. Zheng, Y. Gong, T. Lim, P. Wong. Collision Detection Using Axis-Aligned Bounding Boxes. In \textit{Simulations, Serious Games and Their Applications} (pp. 1--14), 2014, DOI:10.1007/978-981-4560-32-0\_1.
+\end{itemize}
+}
+
+\section{Patent}
+\cvitem{}{
+\begin{itemize}
+  \item Y. Cai, \underline{P. Cai}, C. Indhumathi, J. Zheng, N.M. Thalmann, P. Wong, T.S. Lim, Y. Gong (PEC Ltd. and Nanyang Technological University). Method and System for Intelligent Crane Lifting. WIPO (PCT), 2015, WO2015053711A1.
+\end{itemize}}
+
+\section{Professional Services}
+\cvitem{Editorial \& Organization Roles}{
+\begin{itemize}
+  \item \textbf{Associate Editor}, \textit{IEEE Transactions on Robotics (T-RO)}, 2024--present.
+  \item \textbf{Area Chair}, Robotics: Science and Systems (RSS), 2026.
+  \item Associate Editor, IEEE International Conference on Robotics and Automation (ICRA), 2023.
+  \item Program committee member, International Conference on Automated Planning and Scheduling (ICAPS), 2022.
+  \item Main organizer, \href{https://planandlearn.net/}{RSS 2021 Workshop on Integrating Planning and Learning}.
+  \item Organization committee member, RSS Pioneers Workshop, 2021.
+  \item Program committee member, Robotics: Science \& Systems (RSS), 2020.
+  \item Program committee member, Conference on Robot Learning (CoRL), 2019.
+  \item Organization committee member, CS Research Week 2019, School of Computing, NUS.
+\end{itemize}}
+\cvitem{Reviewing}{
+\begin{itemize}
+  \item Journals: International Journal of Robotics Research (IJRR), IEEE Transactions on Robotics (T-RO), IEEE Robotics and Automation Letters (RA-L), Autonomous Robots (AURO).
+  \item Conferences: Robotics: Science \& Systems (RSS), IEEE International Conference on Robotics and Automation (ICRA), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Conference on Robot Learning (CoRL), Neural Information Processing Systems (NeurIPS), American Control Conference (ACC), International Joint Conference on Artificial Intelligence (IJCAI).
+\end{itemize}}
+
+\section{Teaching \& Mentoring}
+\cvitem{Lecturing}{
+\begin{itemize}
+  \item AI1804 ``Algorithm Design and Analysis,'' Autumn 2025, SJTU School of Artificial Intelligence. Lecturing; sophomore undergraduate course.
+  \item CS7355 ``Frontiers in Autonomous Driving,'' Spring 2024 and Spring 2025, SJTU School of Electronic Information and Electrical Engineering (SEIEE). \emph{Self-designed graduate course}; recognized as an \textbf{SJTU University-Level Outstanding Course}.
+  \item CS3317 ``Artificial Intelligence,'' Autumn 2022/2023 and 2023/2024, SJTU SEIEE. Co-lecturing; sophomore undergraduate course, 50+ students.
+  \item CS4278/CS5478 ``Intelligent Robots: Algorithms and Systems,'' Semesters 1\&2, 2021/2022, NUS. Co-lecturing; graduate course, 100+ students; delivered Lectures 11 (POMDP planning) and 12 (Robot systems).
+  \item CS6244 ``Robot Motion Planning \& Control,'' Semester 1, 2017/2018, NUS. Co-lecturing; graduate course, 20--30 students; delivered Lecture 3 (Sampling-based motion planning).
+  \item Project P3.6 ``Vibration Testing of Multiple DOF Systems,'' AY 2015/16, S1 \& S2, NTU. Teaching assistant; undergraduate-level lab.
+\end{itemize}}
+\cvitem{Mentoring}{
+\begin{itemize}
+  \item Supervising PhD and master students at the Robot Planning and Learning (RoPL) Lab, Shanghai Jiao Tong University.
+  \item Co-supervised \underline{Mr. Yunfan Lu} for his master research; now Senior Robotics Software Engineer at \underline{Dyson}.
+  \item Supervised \underline{Mr. Mohamad Danesh} for his research internship; now research engineer at \underline{Ivy}.
+  \item Co-supervised \underline{Mr. Yiyuan Lee} for his Final Year Project; now PhD candidate at \underline{Rice University}.
+  \item Supervised \underline{Ms. Shuyuan Jin} for her Final Year Project; now Software Engineer at \underline{Facebook}.
+  \item Co-supervised \underline{Dr. Yuanfu Luo} for his PhD research; now algorithm engineer at \underline{DJI}.
+  \item Supervised \underline{Mr. Arthur Wandzel} for his research internship; now co-founder of \underline{JAMM}, an AI startup.
+  \item Supervised \underline{Mr. Aseem Saxena} for his research internship; now master student at \underline{Oregon State University}.
+\end{itemize}}
+
+\section{Selected Research Talks}
+\begin{itemize}
+  \item \emph{Upcoming:} Invited talks at \underline{two CoRL 2026 workshops}, Nov 2026.
+  \item \emph{Upcoming:} Invited talk at the \underline{RSS 2026 Workshop on Human-Centered Mobile Manipulation}, Jul 2026.
+  \item Invited talk at \underline{SJTU V2X Innovation Center}. ``Robot Planning with Commonsense'', May 2026.
+  \item Invited talk at \underline{CCF Young Elite Forum (YEF) 2025}. ``Robot Planning with Commonsense'', Jun 2025.
+  \item Invited talk at \underline{XYZ Robotics}. ``Robot Planning under Uncertainty'', Feb 2025.
+  \item Invited talk at \underline{Kuwa Robot}. ``How does a robot drive better than us?'', May 2023.
+  \item Invited talk at \underline{SenseTime}. ``How does a robot drive better than us?'', Aug 2022.
+  \item Invited talk at the Department of Computer Science, \underline{Brown University}. ``How does a robot drive better than us?'', Aug 2020.
+  \item AI lunch talk at the School of Computing, \underline{National University of Singapore}. ``Hybrid intelligence of robots: modeling, decision making, and learning'', Oct 2019.
+  \item Invited talk at \href{https://www.isee.ai/}{\underline{ISEE AI}}, an MIT startup on autonomous driving. ``How can a robot drive better than us?'', Nov 2019.
+  \item \href{http://www.math.zju.edu.cn/mathen/2018/0509/c38278a1596436/page.htm}{Invited talk} at the School of Mathematical Sciences, \underline{Zhejiang University}. ``Planning under uncertainty in robotics: theory to practice, and serial to parallel'', May 2018.
+\end{itemize}
+
+\section{References}
+\begin{itemize}
+  \item \href{https://www.comp.nus.edu.sg/~dyhsu/}{\underline{Dr. David Hsu (IEEE Fellow)}}.\\
+  Provost's Chair Professor, Department of Computer Science, National University of Singapore.\\
+  Relationship: Postdoc supervisor.\\
+  Email: dyhsu@comp.nus.edu.sg \\
+  Phone: +65 6825 4200
+  \item \underline{Dr. Wee Sun Lee}.\\
+  Professor (Head of Department), Department of Computer Science, National University of Singapore.\\
+  Relationship: Close collaborator.\\
+  Email: leews@comp.nus.edu.sg \\
+  Phone: +65 6516 4526
+  \item \underline{Dr. Yiyu Cai}.\\
+  Associate Professor, School of Mechanical and Aerospace Engineering, Nanyang Technological University.\\
+  Relationship: PhD supervisor.\\
+  Email: MYYCai@ntu.edu.sg \\
+  Phone: +65 6790 5941
+\end{itemize}
+
+\end{document}

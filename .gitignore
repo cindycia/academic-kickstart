@@ -3,3 +3,16 @@ resources/_gen/
 .hugo_build.lock
 .idea/
 .DS_Store
+
+# LaTeX build artifacts (from cv-source/, research-statement-source/, etc.)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.lof
+*.lot

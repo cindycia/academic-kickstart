@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[final]{nips_2018}
+
+% \usepackage[utf8]{inputenc}
+
+\title{Research Statement}
+
+\author{%
+  Cai Panpan \\
+  Postdoc \\
+  Department of Computer Science, 
+  National University of Singapore \\
+%   Singapore, 117417 \\
+%   \texttt{cppmayontu@gmail.com} \\
+}
+% \date{November 2019}
+
+\begin{document}
+
+\maketitle
+My research focuses on large-scale decision making in robotics that involve complex environments, uncertainties and long-term planning. Decision making or planning optimize the robots’ behaviors to transit the real-world towards desired states. While robots only have limited sensing capabilities, functioning of the real-world is highly complex, especially when humans are involved. Planning thus requires sophisticated models and needs to handle a plethora of uncertainties: imperfect robot control, noisy sensors, and fast-changing environments. The problem becomes extremely challenging when many human-controlled agents interact intensively with others. A large crowd induces a high-dimensional state space and enormous difficulties in perception and predictions. It often requires sophisticated long-term plans for the robot to act safely and efficiently in such environments.
+
+My research addresses large-scale, long-term planning from three aspects: human behaviour modelling, real-time planning, and integration with learning. My aim is to enable robots to interact with humans in crowded, chaotic environments and accomplish complex tasks safely and efficiently. A representative scenario is autonomous driving in a crowd, which conveys a huge, partially observable state space, highly-complex dynamics, and uncertain human behaviours.
+
+My work brings practical solutions to large-scale long-term planning in complex real-world tasks. I have developed motion models for traffic participants that can produce accurate long-term predictions. My work introduces massive parallelization to sophisticated long-term planning such that complex real-world problems can be solved in real-time. I have proposed a principled, nested scheme for integrating deep learning into robotic planning to further scales-up to large-scale, highly interactive scenes.
+
+% \section*{Research Directions and Impact}
+My research spans the following three aspects:
+
+\subsection*{Human behaviour modelling} 
+A “good” model not only needs to accurately model the complexity of real-world dynamics and human behaviours, but also needs to capture the intrinsic uncertainties in principled ways. I have developed traffic behavioural models that formalize the interaction among human traffic participants as constrained optimization in the velocity space. By plugin-in theses models to planning, the robot vehicle can leverage its interaction with others to drive more efficiently while maintaining safety. I have further developed an open-source simulator using the motion models which leverages real-world maps to generate realistic driving simulations for interaction with heterogeneous traffic agents. We expect the simulator to provide unlimited amount of high-quality, interactive data for developing, training, and evaluating driving algorithms including perception, motion prediction, control, decision making, and end-to-end learning. This line of research has been published in the Robotics and Automation Letters (RAL) [1] and the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2019) [2] and submitted to the International Conference on Robotics and Automation (ICRA) [3, 4].
+
+\subsection*{Planning under uncertainty} 
+Sophisticated planning brings combinatorial complexities, or the well-known “curse of dimensionality” and “the curse of history”: the complexity of optimal planning grows exponentially with the size of the state space and the planning horizon. I have addressed the computational complexity from the perspective of parallelization. I proposed to integrate CPU parallelization for irregular tasks and GPU parallelization for regular tasks for maximizing computational efficiency. Based on this core idea, I have developed a massively parallel belief tree search algorithm that speeds-up large-scale planning by hundreds of times. This line of research has been published in Robotics: Science & Systems (RSS 2018) [5] and is currently under review by the International Journal of Robotics Research (IJRR) [6]. I have open-sourced the parallel planner with a general API for users to easily plugin their problem models and boost real-time planning for their own tasks.
+
+\subsection*{Integrating planning and learning} Robots should improve themselves when receiving more experience. However, planning and learning both have their own limitations: planning becomes intractable when the problem scale is large and when the affordable planning time is short; learning becomes unreliable when the problem domain shifts even in minor ways. I proposed a principled way to integrate planning and learning: “think locally and learn globally”. Particularly, I developed a crowd-driving algorithm that learns global priors from offline data and use them as heuristics to guide online belief tree search. By doing so, I enabled sophisticated driving among large, highly interactive crowds. This line of research has been published in RSS 2019 [7]. I am continuing to explore the research question that how planning can be performed locally, how learning can be performed globally, and what the best ways are to combine them in different problem setups.
+
+\section*{Summary}
+I enjoy making principled approaches work in the complex real-world. I try to use mathematically-sound formulations of real-world problems and develop principled algorithms to solve them efficiently. In terms of robotics, I believe that explicit, sophisticated reasoning is the key towards super-human intelligence. In the context of planning under uncertainty, this means general human behaviour models, belief tree search, massive parallelization, and integration with learning.
+
+\section*{References}
+\small
+
+[1] Y.F. Luo, P.P. Cai, A. Bera, D. Hsu, W.S. Lee, and D. Manocha. PORCA: Modeling and planning for autonomous driving among many pedestrians. In IEEE Robotics Automation Letters (RAL), vol. 3, no. 4, pp. 3418-3425, Oct. 2018. 
+
+[2] Malika Meghjani*, Yuanfu Luo, Qi Heng Ho, Panpan Cai, Shashwat Verma, Daniela Rus, David Hsu. Context and Intention Aware Planning for Urban Driving. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019. 
+
+[3] P Cai, Y Lee, Y Luo, D Hsu. SUMMIT: A Simulator for Urban Driving in Massive Mixed Traffic. Submitted to ICRA 2020. 
+
+[4] Y Luo, P Cai, D Hsu, WS Lee. GAMMA: A General Agent Motion Prediction Model for Autonomous Driving. Submitted to ICRA 2020. 
+
+[5] P. Cai, Y. Luo, D. Hsu, and W.S. Lee. HyP-DESPOT: A Hybrid Parallel Algorithm for Online Planning under Uncertainty. Robotics: Science and Systems (RSS), 2018. 
+
+[6] P. Cai, Y. Luo, D. Hsu, and W.S. Lee, 2018. HyP-DESPOT: A Hybrid Parallel Algorithm for Online Planning under Uncertainty. Under review by the International Journal of Robotics Research. 
+
+[7] P Cai, Y Luo, A Saxena, D Hsu, WS Lee. LeTS-Drive: Driving in a Crowd by Learning from Tree Search. Robotics: Science Systems (RSS), 2019. 
+
+\end{document}

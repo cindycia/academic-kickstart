@@ -19,11 +19,11 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Joint Full-time Faculty"
+  title = "Full-time Faculty"
   company = "Shanghai Innovation Institute"
-  company_url = ""
+  company_url = "https://www.sii.edu.cn/2025/1001/c82a512/page.htm"
   location = "Shanghai, China"
-  date_start = "2025-09-01"
+  date_start = "2024-09-01"
   date_end = ""
   description = """
   Research topics:
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Associate Professor"
   company = "School of Artificial Intelligence, Shanghai Jiao Tong University"
-  company_url = ""
+  company_url = "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/caipanpan"
   location = "Shanghai, China"
   date_start = "2025-01-15"
   date_end = ""

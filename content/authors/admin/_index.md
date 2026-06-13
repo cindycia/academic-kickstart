@@ -14,10 +14,10 @@ role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: School of Artificial Intelligence, SJTU
-  url: ""
 - name: Shanghai Innovation Institute
-  url: ""
+  url: "https://www.sii.edu.cn/2025/1001/c82a512/page.htm"
+- name: School of Artificial Intelligence, SJTU
+  url: "https://soai.sjtu.edu.cn/cn/facultydetails/zzjs/caipanpan"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Robot motion planning, planning under uncertainty, robot learning and their application to autonomous driving.
@@ -60,7 +60,7 @@ social:
   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "cppmayontu@gmail.com"
+email: "cai_panpan@sjtu.edu.cn"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  

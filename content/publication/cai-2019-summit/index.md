@@ -2,7 +2,7 @@
 title: "SUMMIT: A Simulator for Urban Driving in Massive Mixed Traffic"
 date: 2020-09-01
 publishDate: 2020-11-07T11:46:20.943118Z
-authors: ["Panpan Cai", "Yiyuan Lee", "Yuanfu Luo", "David Hsu"]
+authors: ["Panpan Cai*", "Yiyuan Lee* (co-first author)", "Yuanfu Luo", "David Hsu"]
 publication_types: ["1"]
 abstract: "Autonomous driving in an unregulated urban
 crowd is an outstanding challenge, especially, in the presence

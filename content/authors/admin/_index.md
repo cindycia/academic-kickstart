@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Research Fellow
+role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: National University of Singapore
+- name: Shanghai Jiao Tong University (SJTU)
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-I am a roboticist. I am currently a postdoctoral research fellow working with [Prof. David Hsu](https://www.comp.nus.edu.sg/~dyhsu/) at the Department of Computer Science, [National University of Singapore](https://www.comp.nus.edu.sg/) after receiving my PhD degree from the Nanyang Technological University. I have been focusing on tackling large-scale decision making problems in robotics that involve complex environments, uncertainties and long-term planning. My research interests include robot motion planning, decision making, robot learning, parallel computing, and their applications to autonomous driving in crowded environments. My goal is to enable robots to seamlessly interact with humans in crowded, chaotic environments and accomplish complex tasks. Please see this [video](https://youtu.be/S1W8mXMQFAA) for a 3-min introduction of my recent research, or see my [research statement](files/research.pdf) and [CV](files/cv.pdf) for details.
+I am a roboticist. I am currently an associate professor in Shanghai Jiao Tong University (SJTU), China. Prior to that, I was a postdoctoral research fellow supervised by [Prof. David Hsu](https://www.comp.nus.edu.sg/~dyhsu/) at the Department of Computer Science, [National University of Singapore](https://www.comp.nus.edu.sg/). I received my PhD degree from the Nanyang Technological University. I have been focusing on tackling large-scale decision making problems in robotics that involve complex environments, uncertainties and long-term planning. My research interests include robot motion planning, decision making, robot learning, parallel computing, and their applications to autonomous driving in crowded environments. My goal is to enable robots to seamlessly interact with humans in crowded, chaotic environments and accomplish complex tasks. Please see this [video](https://youtu.be/S1W8mXMQFAA) for a 3-min introduction of my recent research, or see my [research statement](files/research.pdf) and [CV](files/cv.pdf) for details.

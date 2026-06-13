@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "GAMMA: A General Agent Motion Model for Autonomous Driving"
-authors: ["Yuanfu Luo*", "Panpan Cai*", "Yiyuan Lee", "David Hsu"]
+authors: ["Yuanfu Luo*", "Panpan Cai* (co-first and corresponding author)", "Yiyuan Lee", "David Hsu"]
 # date: 2022-02-25T15:46:42+08:00
 doi: ""
 date: 2022-02-01

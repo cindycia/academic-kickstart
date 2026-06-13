@@ -7,14 +7,61 @@ weight = 1  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+interval = 10000
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = "350px"
+height = "330px"
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
+
+
+[[item]]
+  title = "Recent service"
+  content = "I am serving as an associate editor (AE) for ICRA 2023."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#755"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Homepage"
+  cta_url = "https://www.icra2023.org/"
+  cta_icon_pack = "fas"
+
+[[item]]
+  title = "New T-RO paper"
+  content = "Closing the Planning-Learning Loop with Application to Autonomous Driving in a Crowd."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#575"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Paper"
+  cta_url = "https://arxiv.org/abs/2101.03834"
+  cta_icon_pack = "fas"
+
+[[item]]
+  title = "Best paper finalist at CoRL 2022"
+  content = "LEADER: Learning Attention over Driving Behaviors for Planning under Uncertainty."
+  align = "left"  # Choose `center`, `left`, or `right`.
+
+  # Overlay a color or image (optional).
+  #   Deactivate an option by commenting out the line, prefixing it with `#`.
+  overlay_color = "#557"  # An HTML color value.
+  overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Paper"
+  cta_url = "https://arxiv.org/abs/2209.11422"
+  cta_icon_pack = "fas"
+
 
 [[item]]
   title = "Presented at ICRA 2022"
@@ -38,7 +85,7 @@ height = "350px"
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#557"  # An HTML color value.
+  overlay_color = "#556"  # An HTML color value.
   overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
@@ -57,7 +104,7 @@ height = "350px"
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#755"  # An HTML color value.
+  overlay_color = "#655"  # An HTML color value.
   overlay_img = "" # "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   
@@ -66,7 +113,7 @@ height = "350px"
   cta_icon_pack = "fas"
 
 [[item]]
-  title = "Recent lecturing"
+  title = "Past lecturing"
   content = "I have co-lectured graduate-level robotics courses at NUS on sampling-based motion planning, POMDP plannig, and robot system architectures."
   align = "left"  # Choose `center`, `left`, or `right`.
 

@@ -19,12 +19,27 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Associate Professor"
+  company = "Shanghai Jiao Tong University"
+  company_url = ""
+  location = "Shanghai, China"
+  date_start = "2022-08-15"
+  date_end = ""
+  description = """
+  Research topics:
+  * Integrating planning and learning
+  * Planning under uncertainty
+  * Autonomous driving
+  * Robot manipulation
+  """
+  
+[[experience]]
   title = "Senior Research fellow"
   company = "National University of Singapore"
   company_url = ""
   location = "Singapore"
   date_start = "2021-12-30"
-  date_end = ""
+  date_end = "2022-01-15"
   description = """
   Research topics:
   * Integrating planning and learning

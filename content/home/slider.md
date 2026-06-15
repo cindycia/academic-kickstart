@@ -18,7 +18,7 @@ height = "330px"
 
 [[item]]
   title = "RoPL: Robot Planning and Learning Lab"
-  content = "Please check out our group website at [ropl.ai](https://ropl.ai) for the latest research, projects, and openings."
+  content = "Please check out our group website at [ropl.ai](https://www.ropl.ai) for the latest research, projects, and openings."
   align = "left"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -28,7 +28,7 @@ height = "330px"
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   cta_label = "Visit our lab"
-  cta_url = "https://ropl.ai"
+  cta_url = "https://www.ropl.ai"
   cta_icon_pack = "fas"
 
 [[item]]

@@ -71,6 +71,6 @@ user_groups:
 
 I am a roboticist. I am currently an associate professor in Shanghai Jiao Tong University (SJTU), China. Prior to that, I was a postdoctoral research fellow supervised by [Prof. David Hsu](https://www.comp.nus.edu.sg/~dyhsu/) at the Department of Computer Science, [National University of Singapore](https://www.comp.nus.edu.sg/). I received my PhD degree from the Nanyang Technological University. I have been focusing on tackling large-scale decision making problems in robotics that involve complex environments, uncertainties and long-term planning. My research interests include robot motion planning, decision making, robot learning, parallel computing, and their applications to autonomous driving in crowded environments. My goal is to enable robots to seamlessly interact with humans in crowded, chaotic environments and accomplish complex tasks.
 
-**Please check out our group website at [ropl.ai](https://ropl.ai) for ongoing research, team members, and openings.**
+**Please check out our group website at [ropl.ai](https://www.ropl.ai) for ongoing research, team members, and openings.**
 
 See this [video](https://youtu.be/S1W8mXMQFAA) for a 3-min introduction of my recent research, or see my [research statement](files/research.pdf) and [CV](files/cv.pdf) for details.

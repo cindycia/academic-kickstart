@@ -14,6 +14,7 @@ publication: "*arXiv preprint*"
 featured: false
 
 url_pdf: https://arxiv.org/abs/2602.12244
+url_project: https://tgpo2026.github.io/TGPO/
 
 image:
   caption: ""

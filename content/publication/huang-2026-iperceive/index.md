@@ -14,6 +14,7 @@ publication: "*arXiv preprint*"
 featured: false
 
 url_pdf: https://arxiv.org/abs/2603.00600
+url_project: https://iperceive1.github.io/
 
 image:
   caption: ""
